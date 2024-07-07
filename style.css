@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Anton SC", sans-serif;
+font-family: "Arsenal SC", sans-serif; */
+
+*{
+    margin: 0;padding: 0;
+    /* background-color: black; */
+}
+
+*::selection{
+    color: white;
+    background-color: #0a0404;
+}
+
+header{
+    padding: 30px 25px;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    background-color: #0a0404;
+}
+
+li:hover{
+    color: #6bcae1;
+}
+
+
+/* navabr ma bullet delete thase */
+ul{
+    display: flex;
+    list-style: none;
+    font-family: "Anton SC", sans-serif;
+}
+
+/* navbar no content set thase */
+li{
+    color: white;
+    padding: 15px 20px;
+    margin: 10px 25px;
+}
+
+#container{
+    font-family: "Arsenal SC", sans-serif; 
+    background-color: #78caeb;
+    margin: 5px 15px;
+    height: 80vh;
+    
+}
+
+.first{
+    border: 2px solid black;
+    height: 50vh;
+    width: 29vw;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 60px 25px;
+    position: relative;
+    left: 10%;
+
+}
+
+.second{
+    border: 2px solid black;
+    height: 50vh;
+    width: 29vw;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 60px 25px;
+    position: relative;
+    left: 15%;
+
+}
+
+/* footer mate property select thase */
+footer{
+    background-color: #78ec76;
+    margin: 15px 15px;
+    height: 50vh;
+    font-family: "Anton SC", sans-serif;
+}
+
+/* hover mate effect */
+.text:hover , .footer span:hover{
+    background-color: #0af506;
+}
+
+/* footer ma content center karva mate */
+#content{
+    display: flex;
+    justify-content: center;
+    padding: 35px 25px;
+}
+
+
+.text{
+    padding: 35px 25px;
+    margin: 60px 40px;
+    border: 2px solid black;
+    border-radius: 45px;
+    color: black;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    position: fixed;
+    top: 587px;
+    left: 91%;
+}
